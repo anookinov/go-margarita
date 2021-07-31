@@ -10,5 +10,5 @@ var members []Member
 func main() {
 	members = initMembers()
 	r := NewRouter()
-	log.Fatal(http.ListenAndServe(":3000", r))
+	log.Fatal(http.ListenAndServe(":8080", r))
 }
