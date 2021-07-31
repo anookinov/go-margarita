@@ -6,11 +6,11 @@ import (
 )
 
 type Member struct {
-	ID string `json:"id"`
+	ID        string `json:"id"`
 	Firstname string `json:"firstname"`
-	Lastname string `json:"lastname"`
-	Nickname string `json:"nickname"`
-	Birthday Date `json:"birthday"`
+	Lastname  string `json:"lastname"`
+	Nickname  string `json:"nickname"`
+	Birthday  Date   `json:"birthday"`
 }
 
 type Date time.Time

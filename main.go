@@ -8,7 +8,7 @@ import (
 var members []Member
 
 func main() {
-	members = initMembers()	
+	members = initMembers()
 	r := NewRouter()
 	log.Fatal(http.ListenAndServe(":3000", r))
 }
